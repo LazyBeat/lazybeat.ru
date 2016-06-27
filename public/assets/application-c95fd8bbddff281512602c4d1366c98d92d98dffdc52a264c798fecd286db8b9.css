@@ -8973,54 +8973,61 @@ section {
   font-size: 16px;
 }
 /*!
- * Clean Blog v1.0.0 (http://startbootstrap.com)
- * Copyright 2014 Start Bootstrap
- * Licensed under Apache 2.0 (https://github.com/IronSummitMedia/startbootstrap/blob/gh-pages/LICENSE)
+ * Clean Blog v1.0.5 (http://startbootstrap.com/template-overviews/clean-blog)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
-
-
+/* line 8, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 body {
   font-family: 'Lora', 'Times New Roman', serif;
   font-size: 20px;
   color: #404040;
 }
+
+/* line 14, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 p {
   line-height: 1.5;
   margin: 30px 0;
 }
+/* line 17, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 p a {
   text-decoration: underline;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+
+/* line 22, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 800;
 }
+
+/* line 27, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 a {
   color: #404040;
 }
-a:hover,
-a:focus {
+/* line 29, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+a:hover, a:focus {
   color: #0085a1;
 }
-a img:hover,
-a img:focus {
+/* line 33, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+a img:hover, a img:focus {
   cursor: zoom-in;
 }
+
+/* line 39, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 blockquote {
   color: #808080;
   font-style: italic;
 }
+
+/* line 44, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 hr.small {
   max-width: 100px;
   margin: 15px auto;
   border-width: 4px;
   border-color: white;
 }
+
+/* line 51, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .navbar-custom {
   position: absolute;
   top: 0;
@@ -9029,38 +9036,45 @@ hr.small {
   z-index: 3;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
+/* line 58, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .navbar-custom .navbar-brand {
   font-weight: 800;
 }
+/* line 61, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .navbar-custom .nav li a {
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 800;
   letter-spacing: 1px;
 }
+
 @media only screen and (min-width: 768px) {
+  /* line 70, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
   .navbar-custom {
     background: transparent;
     border-bottom: 1px solid transparent;
   }
+  /* line 73, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
   .navbar-custom .navbar-brand {
     color: white;
     padding: 20px;
   }
-  .navbar-custom .navbar-brand:hover,
-  .navbar-custom .navbar-brand:focus {
+  /* line 76, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+  .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {
     color: rgba(255, 255, 255, 0.8);
   }
+  /* line 80, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
   .navbar-custom .nav li a {
     color: white;
     padding: 20px;
   }
-  .navbar-custom .nav li a:hover,
-  .navbar-custom .nav li a:focus {
+  /* line 83, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+  .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
     color: rgba(255, 255, 255, 0.8);
   }
 }
 @media only screen and (min-width: 1170px) {
+  /* line 91, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
   .navbar-custom {
     -webkit-transition: background-color 0.3s;
     -moz-transition: background-color 0.3s;
@@ -9074,6 +9088,7 @@ hr.small {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
+  /* line 103, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
   .navbar-custom.is-fixed {
     /* when the user scrolls down, we hide the header right above the viewport */
     position: fixed;
@@ -9084,20 +9099,23 @@ hr.small {
     -moz-transition: -moz-transform 0.3s;
     transition: transform 0.3s;
   }
+  /* line 112, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
   .navbar-custom.is-fixed .navbar-brand {
     color: #404040;
   }
-  .navbar-custom.is-fixed .navbar-brand:hover,
-  .navbar-custom.is-fixed .navbar-brand:focus {
+  /* line 114, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+  .navbar-custom.is-fixed .navbar-brand:hover, .navbar-custom.is-fixed .navbar-brand:focus {
     color: #0085a1;
   }
+  /* line 118, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
   .navbar-custom.is-fixed .nav li a {
     color: #404040;
   }
-  .navbar-custom.is-fixed .nav li a:hover,
-  .navbar-custom.is-fixed .nav li a:focus {
+  /* line 120, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+  .navbar-custom.is-fixed .nav li a:hover, .navbar-custom.is-fixed .nav li a:focus {
     color: #0085a1;
   }
+  /* line 125, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
   .navbar-custom.is-visible {
     /* if the user changes the scrolling direction, we show the header */
     -webkit-transform: translate3d(0, 100%, 0);
@@ -9107,6 +9125,7 @@ hr.small {
     transform: translate3d(0, 100%, 0);
   }
 }
+/* line 136, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .intro-header {
   background-color: #808080;
   background: no-repeat center center;
@@ -9117,30 +9136,22 @@ hr.small {
   -o-background-size: cover;
   margin-bottom: 50px;
 }
-.intro-header .site-heading,
-.intro-header .post-heading,
-.intro-header .page-heading {
+/* line 145, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+.intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
   padding: 100px 0 50px;
   color: white;
 }
-@media only screen and (min-width: 768px) {
-  .intro-header .site-heading,
-  .intro-header .post-heading,
-  .intro-header .page-heading {
-    padding: 150px 0;
-  }
-}
-.intro-header .site-heading,
-.intro-header .page-heading {
+/* line 149, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+.intro-header .site-heading, .intro-header .page-heading {
   text-align: center;
 }
-.intro-header .site-heading h1,
-.intro-header .page-heading h1 {
+/* line 152, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+.intro-header .site-heading h1, .intro-header .page-heading h1 {
   margin-top: 0;
   font-size: 50px;
 }
-.intro-header .site-heading .subheading,
-.intro-header .page-heading .subheading {
+/* line 156, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+.intro-header .site-heading .subheading, .intro-header .page-heading .subheading {
   font-size: 24px;
   line-height: 1.1;
   display: block;
@@ -9148,86 +9159,109 @@ hr.small {
   font-weight: 300;
   margin: 10px 0 0;
 }
-@media only screen and (min-width: 768px) {
-  .intro-header .site-heading h1,
-  .intro-header .page-heading h1 {
-    font-size: 80px;
-  }
-}
+/* line 165, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .intro-header .post-heading h1 {
   font-size: 35px;
 }
-.intro-header .post-heading .subheading,
-.intro-header .post-heading .meta {
+/* line 168, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+.intro-header .post-heading .subheading, .intro-header .post-heading .meta {
   line-height: 1.1;
   display: block;
 }
+/* line 172, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .intro-header .post-heading .subheading {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 24px;
   margin: 10px 0 30px;
   font-weight: 600;
 }
+/* line 178, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .intro-header .post-heading .meta {
   font-family: 'Lora', 'Times New Roman', serif;
   font-style: italic;
   font-weight: 300;
   font-size: 20px;
 }
+/* line 183, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .intro-header .post-heading .meta a {
   color: white;
 }
+
 @media only screen and (min-width: 768px) {
+  /* line 192, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+  .intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
+    padding: 150px 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 200, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+  .intro-header .site-heading h1, .intro-header .page-heading h1 {
+    font-size: 80px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 208, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
   .intro-header .post-heading h1 {
     font-size: 55px;
   }
+  /* line 211, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
   .intro-header .post-heading .subheading {
     font-size: 30px;
   }
 }
+/* line 218, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .post-preview > a {
   color: #404040;
 }
-.post-preview > a:hover,
-.post-preview > a:focus {
+/* line 220, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+.post-preview > a:hover, .post-preview > a:focus {
   text-decoration: none;
   color: #0085a1;
 }
+/* line 225, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .post-preview > a > .post-title {
   font-size: 30px;
   margin-top: 30px;
   margin-bottom: 10px;
 }
+/* line 230, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .post-preview > a > .post-subtitle {
   margin: 0;
   font-weight: 300;
   margin-bottom: 10px;
 }
+/* line 237, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .post-preview > .post-meta {
   color: #808080;
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
 }
+/* line 242, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .post-preview > .post-meta > a {
   text-decoration: none;
   color: #404040;
 }
-.post-preview > .post-meta > a:hover,
-.post-preview > .post-meta > a:focus {
+/* line 245, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+.post-preview > .post-meta > a:hover, .post-preview > .post-meta > a:focus {
   color: #0085a1;
   text-decoration: underline;
 }
+
 @media only screen and (min-width: 768px) {
+  /* line 254, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
   .post-preview > a > .post-title {
     font-size: 36px;
   }
 }
+/* line 259, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .section-heading {
   font-size: 36px;
   margin-top: 60px;
   font-weight: 700;
 }
+
+/* line 265, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .caption {
   text-align: center;
   font-size: 14px;
@@ -9238,18 +9272,24 @@ hr.small {
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+
+/* line 276, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 footer {
   padding: 50px 0 65px;
 }
+/* line 278, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 footer .list-inline {
   margin: 0;
   padding: 0;
 }
+/* line 282, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 footer .copyright {
   font-size: 14px;
   text-align: center;
   margin-bottom: 0;
 }
+
+/* line 289, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .floating-label-form-group {
   font-size: 14px;
   position: relative;
@@ -9257,8 +9297,8 @@ footer .copyright {
   padding-bottom: 0.5em;
   border-bottom: 1px solid #eeeeee;
 }
-.floating-label-form-group input,
-.floating-label-form-group textarea {
+/* line 295, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+.floating-label-form-group input, .floating-label-form-group textarea {
   z-index: 1;
   position: relative;
   padding-right: 0;
@@ -9270,6 +9310,7 @@ footer .copyright {
   box-shadow: none !important;
   resize: none;
 }
+/* line 307, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .floating-label-form-group label {
   display: block;
   z-index: 0;
@@ -9286,20 +9327,29 @@ footer .copyright {
   -ms-transition: top 0.3s ease,opacity 0.3s ease;
   transition: top 0.3s ease,opacity 0.3s ease;
 }
-.floating-label-form-group::not(:first-child) {
+/* line 323, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+.floating-label-form-group::not(":first-child") {
   padding-left: 14px;
   border-left: 1px solid #eeeeee;
 }
+
+/* line 329, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .floating-label-form-group-with-value label {
   top: 0;
   opacity: 1;
 }
+
+/* line 334, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .floating-label-form-group-with-focus label {
   color: #0085a1;
 }
+
+/* line 338, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
 }
+
+/* line 342, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .btn {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -9309,21 +9359,26 @@ form .row:first-child .floating-label-form-group {
   border-radius: 0;
   padding: 15px 25px;
 }
+
+/* line 352, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .btn-lg {
   font-size: 16px;
   padding: 25px 35px;
 }
-.btn-default:hover,
-.btn-default:focus {
+
+/* line 358, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+.btn-default:hover, .btn-default:focus {
   background-color: #0085a1;
   border: 1px solid #0085a1;
   color: white;
 }
+
+/* line 365, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .pager {
   margin: 20px 0 0;
 }
-.pager li > a,
-.pager li > span {
+/* line 368, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+.pager li > a, .pager li > span {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-size: 14px;
@@ -9333,40 +9388,47 @@ form .row:first-child .floating-label-form-group {
   background-color: white;
   border-radius: 0;
 }
-.pager li > a:hover,
-.pager li > a:focus {
+/* line 379, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+.pager li > a:hover, .pager li > a:focus {
   color: white;
   background-color: #0085a1;
   border: 1px solid #0085a1;
 }
-.pager .disabled > a,
-.pager .disabled > a:hover,
-.pager .disabled > a:focus,
+/* line 387, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+.pager .disabled > a {
+  color: #808080;
+  background-color: #404040;
+  cursor: not-allowed;
+}
+/* line 391, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+.pager .disabled > a:hover, .pager .disabled > a:focus {
+  color: #808080;
+  background-color: #404040;
+  cursor: not-allowed;
+}
+/* line 397, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 .pager .disabled > span {
   color: #808080;
   background-color: #404040;
   cursor: not-allowed;
 }
-::-moz-selection {
+
+/* line 405, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+::-moz-selection, ::selection {
   color: white;
   text-shadow: none;
   background: #0085a1;
 }
-::selection {
-  color: white;
-  text-shadow: none;
-  background: #0085a1;
-}
-img::selection {
+
+/* line 412, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
+img::selection, img::-moz-selection {
   color: white;
   background: transparent;
 }
-img::-moz-selection {
-  color: white;
-  background: transparent;
-}
+
+/* line 418, /Users/madmatvey/Sites/lazybeat/app/assets/stylesheets/clean-blog.css.scss */
 body {
-  webkit-tap-highlight-color: #0085a1;
+  -webkit-tap-highlight-color: #0085a1;
 }
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
