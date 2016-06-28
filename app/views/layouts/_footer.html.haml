@@ -19,13 +19,4 @@
               %span.fa-stack.fa-lg
                 %i.fa.fa-circle.fa-stack-2x
                 %i.fa.fa-github.fa-stack-1x.fa-inverse
-        %p.copyright.text-muted Copyright &copy; Your Website 2016
-/ jQuery
-%script{:src => "vendor/jquery/jquery.min.js"}
-/ Bootstrap Core JavaScript
-%script{:src => "vendor/bootstrap/js/bootstrap.min.js"}
-/ Contact Form JavaScript
-%script{:src => "js/jqBootstrapValidation.js"}
-%script{:src => "js/contact_me.js"}
-/ Theme JavaScript
-%script{:src => "js/clean-blog.min.js"}
+        %p.copyright.text-muted Copyright &copy; #{link_to "Lazy Beat", root_path} #{Time.now.year}
