@@ -18,9 +18,10 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   %body
     = render 'layouts/navigation'
-    -# - back_url ||=
-    -# == "About Me"
-    -# -  back_url = '/images/about_back.jpg'
+    - unless content_for?(:back_url)
+      - content_for :back_url, "/images/head_back.jpg"
+    - unless content_for?(:title)
+      - content_for :title, "Тот случай когда особого подзаголовка нет, ага"
     = render partial: 'layouts/header', locals: {title: yield(:title), background_url: yield(:back_url) }
     / Main Content
     .container
