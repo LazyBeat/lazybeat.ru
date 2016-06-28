@@ -18,7 +18,10 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   %body
     = render 'layouts/navigation'
-    = render 'layouts/header'
+    -# - back_url ||=
+    -# == "About Me"
+    -# -  back_url = '/images/about_back.jpg'
+    = render partial: 'layouts/header', locals: {title: yield(:title), background_url: yield(:back_url) }
     / Main Content
     .container
       .row
