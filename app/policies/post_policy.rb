@@ -14,6 +14,18 @@ class PostPolicy
     true
   end
 
+  def new?
+    true
+  end
+
+  def create?
+    @current_user.try(:admin?) or @current_user == @post.user
+  end
+
+  def edit?
+    @current_user.try(:admin?) or @current_user == @post.user
+  end
+
   def edit?
     @current_user.try(:admin?) or @current_user == @post.user
   end
