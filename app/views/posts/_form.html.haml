@@ -3,8 +3,8 @@
 
   .form-inputs
     = f.input :title
-    = f.input :body, as: :bootsy, :input_html => {:rows => 10} 
-    = f.association :user
+    = f.input :body, as: :bootsy, :input_html => {:rows => 10}
+    = f.input :user_id, as: :hidden, input_html: { value: current_user.id } 
     = f.input :brainchild
 
   .form-actions
