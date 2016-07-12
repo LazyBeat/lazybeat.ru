@@ -1,17 +1,19 @@
+- content_for :title, @post.brainchild
+-# - content_for :back_url, "/images/post_back.jpg"
 %p#notice= notice
 
-%p
-  %b Title:
+%h1.post-title
   = @post.title
-%p
-  %b Body:
-  = @post.body
-%p
-  %b User:
-  = @post.user
-%p
-  %b Brainchild:
-  = @post.brainchild
+%hr
+
+= @post.body.html_safe
+
+
+%p.post-meta
+  Опубликовано
+  = @post.user.name
+  = @post.created_at
+
 
 = link_to 'Edit', edit_post_path(@post)
 \|
