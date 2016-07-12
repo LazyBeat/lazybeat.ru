@@ -1,27 +1,19 @@
-%h1 Listing posts
+- content_for :title, "Ещё один блог технологического предпринимателя, ага!"
+- content_for :back_url, "/images/head_back.jpg"
 
-%table
-  %thead
-    %tr
-      %th Title
-      %th Body
-      %th User
-      %th Brainchild
-      %th
-      %th
-      %th
-
-  %tbody
-    - @posts.each do |post|
-      %tr
-        %td= post.title
-        %td= post.body
-        %td= post.user
-        %td= post.brainchild
-        %td= link_to 'Show', post
-        %td= link_to 'Edit', edit_post_path(post)
-        %td= link_to 'Destroy', post, :method => :delete, :data => { :confirm => 'Are you sure?' }
-
-%br
-
-= link_to 'New Post', new_post_path
+- @posts.each do |post|
+  %hr
+    .post-preview
+      =link_to post do
+        %h2.post-title
+          = post.title
+        %h3.post-subtitle
+          = post.brainchild
+      %p.post-meta
+        = post.user.name
+        написал
+        = post.created_at.strftime("%B %d, %Y")
+        -if policy(post).edit?
+          = link_to 'Edit', edit_post_path(post)
+        -if policy(post).destroy?
+          = link_to 'Destroy', post, :method => :delete, :data => { :confirm => 'Are you sure?' }

@@ -3,7 +3,7 @@
 
   .form-inputs
     = f.input :title
-    = f.input :body, as: :bootsy, :input_html => {:rows => 20}
+    = f.input :body, as: :bootsy, :input_html => {:rows => 25}
     = f.input :user_id, as: :hidden, input_html: { value: current_user.id }
     = f.input :brainchild
 
