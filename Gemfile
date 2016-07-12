@@ -8,7 +8,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
-gem 'rmagick'
+
 gem 'bootsy'
 
 group :development, :test do
@@ -36,6 +36,7 @@ group :development, :test do
   gem 'faker'
   gem 'rspec-rails'
   gem 'sqlite3'
+  gem 'rmagick'
 end
 group :production do
   gem 'pg'
