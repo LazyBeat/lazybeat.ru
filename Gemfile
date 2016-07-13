@@ -10,6 +10,9 @@ gem 'jbuilder', '~> 2.0'
 
 
 gem 'bootsy'
+gem 'carrierwave'
+gem 'fog'
+gem 'fog-aws'
 
 group :development, :test do
   gem 'byebug'
@@ -24,6 +27,7 @@ gem 'haml-rails'
 gem 'high_voltage'
 gem 'pundit'
 gem 'simple_form'
+
 group :development do
   gem 'better_errors'
   gem 'html2haml'
@@ -42,7 +46,6 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
   gem 'unicorn'
-  gem 'aws-sdk', '~> 2'
 end
 group :test do
   gem 'capybara'
