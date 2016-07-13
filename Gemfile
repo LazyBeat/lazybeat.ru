@@ -11,8 +11,7 @@ gem 'jbuilder', '~> 2.0'
 
 gem 'bootsy'
 gem 'carrierwave'
-gem 'fog'
-gem 'fog-aws'
+gem 'carrierwave-aws' 
 
 group :development, :test do
   gem 'byebug'
