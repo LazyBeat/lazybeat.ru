@@ -56,9 +56,9 @@ Bootsy.setup do |config|
   #   initializer file, as described in Carrierwave's docs:
   #   https://github.com/carrierwaveuploader/carrierwave#using-amazon-s3
 
-  # config.storage = :aws
+  config.storage = :aws
 
-  config.storage = :fog
+  # config.storage = :fog
   #
   #
   # Store directory (inside 'public') for storage = :file
