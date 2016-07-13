@@ -15,7 +15,7 @@
 
 CarrierWave.configure do |config|
   config.storage    = :aws
-  config.aws_bucket = ENV.fetch('AWS_S3_BUCKET_NAME')
+  config.aws_bucket = ENV['AWS_S3_BUCKET_NAME']
   config.aws_acl    = false #'public-read'
 
   # Optionally define an asset host for configurations that are fronted by a
@@ -32,8 +32,8 @@ CarrierWave.configure do |config|
   }
 
   config.aws_credentials = {
-    access_key_id:     ENV.fetch('AWS_ACCESS_KEY_ID'),
-    secret_access_key: ENV.fetch('AWS_SECRET_ACCESS_KEY'),
+    access_key_id:     ENV["AWS_ACCESS_KEY_ID"],
+    secret_access_key: ENV["AWS_SECRET_ACCESS_KEY"],
     region:            'us-west-2' # Required
   }
 
