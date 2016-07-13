@@ -16,7 +16,7 @@
 CarrierWave.configure do |config|
   config.storage    = :aws
   config.aws_bucket = ENV['AWS_S3_BUCKET_NAME']
-  config.aws_acl    = false #'public-read'
+  config.aws_acl    = 'public-read'
 
   # Optionally define an asset host for configurations that are fronted by a
   # content host, such as CloudFront.
