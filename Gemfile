@@ -11,10 +11,10 @@ gem 'jbuilder', '~> 2.0'
 
 gem 'bootsy'
 gem 'carrierwave'
-gem 'fog-aws'
-# gem 'carrierwave-aws'
-# gem 'mini_magick'
-# gem 'figaro'
+# gem 'fog-aws'
+gem 'carrierwave-aws'
+gem 'mini_magick'
+gem 'figaro'
 
 group :development, :test do
   gem 'byebug'
