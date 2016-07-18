@@ -16,6 +16,8 @@ gem 'carrierwave-aws'
 gem 'mini_magick'
 gem 'figaro'
 
+gem 'mailgun_rails'
+
 group :development, :test do
   gem 'byebug'
 end
