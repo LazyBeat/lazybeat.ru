@@ -18,7 +18,7 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :mailgun
   config.action_mailer.mailgun_settings = {
         api_key: Rails.application.secrets.mailgun_domain,
-        domain: Rails.application.secrets.mailgun_api_key 
+        domain: Rails.application.secrets.mailgun_api_key
 }
 
 
@@ -44,4 +44,5 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
+  Rails.application.routes.default_url_options[:host] = 'lazybeat.ru'
 end
