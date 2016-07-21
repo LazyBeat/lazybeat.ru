@@ -17,6 +17,7 @@ gem 'mini_magick'
 gem 'figaro'
 
 gem 'mailgun_rails'
+gem 'mailgunner', '~> 2.4'
 
 group :development, :test do
   gem 'byebug'

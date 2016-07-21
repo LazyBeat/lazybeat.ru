@@ -17,8 +17,8 @@ Rails.application.configure do
   config.action_mailer.raise_delivery_errors = false
   config.action_mailer.delivery_method = :mailgun
   config.action_mailer.mailgun_settings = {
-        api_key: Rails.application.secrets.mailgun_domain, #'mg.lazybeat.ru',
-        domain: Rails.application.secrets.mailgun_api_key #'key-7f9cce7561756e23e13f21764a19e671'
+        api_key: Rails.application.secrets.mailgun_domain,
+        domain: Rails.application.secrets.mailgun_api_key 
 }
 
 
