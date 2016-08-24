@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/jumph4x/canonical-rails.git
+  revision: c218a4cc86db5aebd3167ceea239b8b2019ae0a2
+  specs:
+    canonical-rails (0.1.1)
+      rails (>= 4.1, < 5.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -276,6 +283,7 @@ DEPENDENCIES
   bootstrap-sass
   bootsy
   byebug
+  canonical-rails!
   capybara
   carrierwave
   carrierwave-aws
